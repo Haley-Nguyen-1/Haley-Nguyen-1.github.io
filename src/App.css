@@ -2,8 +2,20 @@
     text-align: center;
 }
 
+.white-text{
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 *{
     box-sizing: border-box;
+}
+
+body{
+    margin: 0;
 }
 
 main{

@@ -4,7 +4,7 @@ import './Components.css';
 function Header (){
     return (
         <header>
-            <h1 className="center-text">Elite Demolition Company</h1>
+            <h1 className="center-text white-text">COMPANY NAME</h1>
             <Navigation />
         </header>
     );
