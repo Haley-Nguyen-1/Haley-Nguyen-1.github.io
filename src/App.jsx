@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div>
         <Header />
-        <main>
+        <body>
           <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/about-us" element={<About />}/>
@@ -21,7 +21,7 @@ function App() {
             <Route path="/reviews" element={<Reviews />}/>
             <Route path="/services" element={<Services />} />
           </Routes>
-        </main>
+        </body>
         <Footer />
       </div>
     </Router>

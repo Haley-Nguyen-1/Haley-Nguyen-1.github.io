@@ -4,7 +4,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 function Gallery({images}){
     return (
         <div id="gallery">
-            <ImageGallery items={images} showThumbnails={false} showPlayButton={false} showFullscreenButton={false} autoPlay={true}/>
+            <ImageGallery items={images} showThumbnails={false} showPlayButton={false} showFullscreenButton={false} autoPlay={true} />
         </div>
     );
 }

@@ -8,7 +8,6 @@ function Home (){
             original: "https://www.shutterstock.com/shutterstock/photos/2477155215/display_1500/stock-photo-excavator-for-loading-scrap-metal-selective-focus-2477155215.jpg",
             thumbnail: "https://www.shutterstock.com/shutterstock/photos/2477155215/display_1500/stock-photo-excavator-for-loading-scrap-metal-selective-focus-2477155215.jpg",
             originalClass: "image"
-            
         },
         {
             original: "https://www.shutterstock.com/shutterstock/photos/2182673391/display_1500/stock-photo-demolition-of-an-old-house-demolition-of-unnecessary-walls-with-hand-held-impact-hammer-a-view-of-2182673391.jpg",
@@ -36,7 +35,7 @@ function Home (){
             <div id="image-with-text">
                 <img style={{height: "100%", width: "100%"}} src="https://www.shutterstock.com/shutterstock/photos/2174794581/display_1500/stock-photo-demolition-building-excavator-destroy-old-house-2174794581.jpg"></img>
                 <div>
-                    <p>INSERT YOUR TEXT HERE</p>
+                    <p className="bold">INSERT YOUR TEXT HERE</p>
                 </div>
                 <div id="button-group-center">
                     <button>CLICK HERE</button>
@@ -44,7 +43,9 @@ function Home (){
                     <button>CLICK HERE</button>
                 </div>
             </div>
-            <Gallery images={images}/>
+            <div id="test">
+                <Gallery images={images}/>
+            </div>
             <TextSubtextBox title={"TITLE"} subtext={"THIS IS SUBTEXT UNDER THE TITLE"} hrwidth={"25%"} />
         </>
     );

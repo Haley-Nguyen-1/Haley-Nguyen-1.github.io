@@ -1,6 +1,7 @@
 .image{
     width: 100%;
-    height: 100%;
+    height: 700px;
+    overflow: hidden;
 }
 
 #image-with-text{
@@ -28,4 +29,52 @@
 #button-group-center button{
     margin-left: 5%;
     margin-right: 5%;
+}
+
+#test{
+    width: 100%;
+    min-height: 10%;
+    height: 10%;
+    max-height: 10%;
+    overflow: hidden;
+}
+
+.two-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+}
+
+#grid-image-gallery {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+    grid-auto-rows: auto;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.image-overlay{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+}
+
+.image-overlay img{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#services-images{
+    border: 1px solid red;
+    width: 100%;
+    height: 800px;
 }

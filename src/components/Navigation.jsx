@@ -5,11 +5,11 @@ function Navigation(){
     const navigate = useNavigate();
     return (
         <menu>
-            <a className="white-text" onClick={() => navigate('/')}>Home</a>
-            <a className="white-text" onClick={() => navigate('/about-us')}>About Us</a>
-            <a className="white-text" onClick={() => navigate('/services')}>Services</a>
-            <a className="white-text" onClick={() => navigate('/contact')}>Contact</a>
-            <a className="white-text" onClick={() => navigate('/reviews')}>Reviews/Testimonials</a>
+            <a className="white-text bold" onClick={() => navigate('/')}>HOME</a>
+            <a className="white-text bold" onClick={() => navigate('/about-us')}>ABOUT US</a>
+            <a className="white-text bold" onClick={() => navigate('/services')}>SERVICES</a>
+            <a className="white-text bold" onClick={() => navigate('/contact')}>CONTACT</a>
+            <a className="white-text bold" onClick={() => navigate('/reviews')}>REVIEWS/TESTIMONIALS</a>
         </menu>
     );
 }
