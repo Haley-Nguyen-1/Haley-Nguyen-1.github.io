@@ -103,7 +103,6 @@ footer menu a{
 .image-text{
     width: 10%;
     height: 10%;
-    border: 1px solid red;
 }
 
 .image-text img{
@@ -111,5 +110,16 @@ footer menu a{
     height: 100%;
 }
 
+
+.review-text{
+    box-sizing: border-box;
+    margin: 0;
+    width: auto;
+    border: 1px solid black;
+}
+
+.review-text p:nth-child(2){
+    text-align: right;
+}
 
 

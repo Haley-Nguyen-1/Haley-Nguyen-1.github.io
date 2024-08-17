@@ -50,7 +50,6 @@
     margin-right: auto;
     width: 50%;
     height: auto;
-    border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
     grid-auto-rows: auto;
@@ -78,4 +77,16 @@
     height: 800px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+#map iframe{
+    width: 100%;
+}
+
+#review-container{
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
