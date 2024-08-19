@@ -11,8 +11,8 @@ function Contact (){
             <div id="contact-info">
                 <p className="center-text">Phone #: (555) 555 5555</p>
                 <p className="center-text">Email: example@example.com</p>
-                <div>
-                    <p className="center-text">Socials</p>
+                <p className="center-text">Socials</p>
+                <div className="center">
                     <button>???</button>
                     <button>???</button>
                     <button>???</button>

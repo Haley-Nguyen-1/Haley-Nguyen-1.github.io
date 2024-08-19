@@ -6,6 +6,12 @@
     color: white;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -13,9 +19,11 @@
 *{
     box-sizing: border-box;
 }
+
+
 body{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     margin-top: 100px;
     margin-bottom: 0;
     margin-left: 0;

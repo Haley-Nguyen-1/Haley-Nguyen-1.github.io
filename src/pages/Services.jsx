@@ -1,6 +1,6 @@
 import React from "react";
 import ImageOverlay from "../components/ImageOverlay.jsx";
-import ImageText from "../components/ImageText.jsx";
+import ImageTextDescription from "../components/ImageTextDescription.jsx";
 function Services (){
 
     const info = [
@@ -59,14 +59,7 @@ function Services (){
             </div>
             <div>
                 {serviceInfo.map ( (element, index) => 
-                    <div className="service-description">
-                        <span>
-                            <ImageText key={index} backgroundImg={element.img} className={element.className} text={element.text}/>
-                        </span>
-                        <span className="auto-width">
-                            <p className="center-text">{element.description}</p>
-                        </span>
-                    </div>
+                    <ImageTextDescription key={index} index={index} element={element} />
                 )}
             </div>
         </>
