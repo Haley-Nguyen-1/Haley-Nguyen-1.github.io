@@ -30,7 +30,7 @@ footer{
 }
 
 footer h1{
-    font-size: small;
+    font-size: medium;
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -101,13 +101,13 @@ footer menu a{
 }
 
 .image-text{
-    width: 10%;
-    height: 10%;
+    width: 250px;
+    height: auto;
 }
 
 .image-text img{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 

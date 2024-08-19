@@ -40,6 +40,13 @@ function Services (){
         {
             img: "https://www.shutterstock.com/shutterstock/photos/1038533161/display_1500/stock-vector-icon-of-high-rise-office-building-construction-tall-urban-architecture-concept-can-be-used-for-1038533161.jpg",
             text: "BUILDINGS",
+            description: "This is a description!!!",
+            className : "image-text"
+        },
+        {
+            img: "https://www.shutterstock.com/shutterstock/photos/1038533161/display_1500/stock-vector-icon-of-high-rise-office-building-construction-tall-urban-architecture-concept-can-be-used-for-1038533161.jpg",
+            text: "BUILDINGS",
+            description: "This is a description!!!",
             className : "image-text"
         },
     ]
@@ -47,12 +54,20 @@ function Services (){
 
     return (
         <>
-            <h1>Services</h1>
             <div id="services-images">
                 {info.map( (element, index) => <ImageOverlay key={index} backgroundImg={element.backgroundImg} imageClass={element.imageClass} textDetails={element.textDetails}/> )}
             </div>
             <div>
-                {serviceInfo.map ( (element, index) => <ImageText backgroundImg={element.img} className={element.className} text={element.text}/>)}
+                {serviceInfo.map ( (element, index) => 
+                    <div className="service-description">
+                        <span>
+                            <ImageText key={index} backgroundImg={element.img} className={element.className} text={element.text}/>
+                        </span>
+                        <span className="auto-width">
+                            <p className="center-text">{element.description}</p>
+                        </span>
+                    </div>
+                )}
             </div>
         </>
     );

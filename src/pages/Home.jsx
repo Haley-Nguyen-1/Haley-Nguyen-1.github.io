@@ -35,7 +35,7 @@ function Home (){
             <div id="image-with-text">
                 <img style={{height: "100%", width: "100%"}} src="https://www.shutterstock.com/shutterstock/photos/2174794581/display_1500/stock-photo-demolition-building-excavator-destroy-old-house-2174794581.jpg"></img>
                 <div>
-                    <p className="bold">INSERT YOUR TEXT HERE</p>
+                    <p className="bold white-text">INSERT YOUR TEXT HERE</p>
                 </div>
                 <div id="button-group-center">
                     <button>CLICK HERE</button>
