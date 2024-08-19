@@ -11,19 +11,19 @@ import Footer from './components/Footer.jsx';
 function App() {
   return (
     <Router>
-      <div>
-        <Header />
-        <body>
-          <Routes>
-            <Route path="/" element={<Home />}/>
-            <Route path="/about-us" element={<About />}/>
-            <Route path="/contact" element={<Contact />}/>
-            <Route path="/reviews" element={<Reviews />}/>
-            <Route path="/services" element={<Services />} />
-          </Routes>
-        </body>
-        <Footer />
-      </div>
+        <div className="page-wrapper">
+          <Header />
+            <main>
+              <Routes>
+                <Route path="/" element={<Home />}/>
+                <Route path="/about-us" element={<About />}/>
+                <Route path="/contact" element={<Contact />}/>
+                <Route path="/reviews" element={<Reviews />}/>
+                <Route path="/services" element={<Services />} />
+              </Routes>
+            </main>
+          <Footer />
+        </div>
     </Router>
   )
 }

@@ -20,20 +20,19 @@ header{
     background-color: black;
 }
 
-footer{
-    position: absolute;
-    bottom: 0;
+footer {
+    position: relative;
     width: 100%;
     background-color: black;
-    margin: 0;
     height: 10rem;
-}
-
-footer h1{
+  }
+  
+  footer h1 {
     font-size: medium;
     padding-top: 1%;
     padding-bottom: 1%;
-}
+  }
+  
 
 footer menu a{
     text-decoration: none;
